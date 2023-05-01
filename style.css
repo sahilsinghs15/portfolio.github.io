@@ -1,0 +1,125 @@
+ img{
+    height: 800px;
+    width: 900px;
+ }
+ 
+ * {
+  box-sizing: border-box;
+  margin: 05;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url('sahil.jpeg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.about {
+  margin-top: 50px;
+}
+
+.about h2 {
+  font-size: 36px;
+margin-bottom: 20px;
+}
+
+.about p {
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 40px;
+}
+
+.portfolio {
+margin-top: 50px;
+}
+
+.portfolio h2 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+.portfolio ul {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+}
+
+.portfolio li {
+width: 33%;
+padding: 20px;
+box-sizing: border-box;
+}
+
+.portfolio li img {
+width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.portfolio li h3 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.portfolio li p {
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
